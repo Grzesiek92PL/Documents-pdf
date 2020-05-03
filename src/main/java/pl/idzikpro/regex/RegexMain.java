@@ -1,5 +1,6 @@
 package pl.idzikpro.regex;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexMain {
@@ -39,5 +40,12 @@ public class RegexMain {
 
         //Czy string jest kodem pocztowym?
         System.out.println(Pattern.matches("[0-9]{2}-[0-9]{3}","20-133"));
+
+        Pattern pattern= Pattern.compile("[0-9]");
+        Matcher matcher=pattern.matcher("121212212");
+        System.out.println(matcher.matches());
+
+        System.out.print(Pattern.matches("[0-9]", "32323"));
+
     }
 }
