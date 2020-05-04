@@ -1,0 +1,23 @@
+ Zadanie 1
+ Zdefiniuj dwie klasy odpowiedzialne za przechowywanie informacji o Grze oraz Zawodniku.
+ Klasa Game powinna zawierać:
+ - name,
+ - players.
+ Klasa Player powinna zawierać:
+ - name,
+ - username,
+ - points.
+ Klasa Game powinna zawierać również metodę 'winner', która wypisuje na ekranie imię i
+ nazwisko wygrywającego. Wygrywa zawodnik, który posiada więcej niż 100 punktów. Jeśli
+ dwaj zawodnicy mają więcej niż 100 punktów, wygrywa ten, który ma ich więcej.
+ Klasa Player powinna zawierać metodę 'fullName' zwracającą imię i
+ nazwisko gracza.
+
+
+Zadanie 2
+Stwórz klasę Point2D, która przechowuje informacje na temat punktu na przestrzeni
+dwuwymiarowej (współrzędne x oraz y). Zawierająca dwa konstruktory: bezparametrowy
+ustawiający pola na wartość 0, oraz przyjmujący dwa argumenty i ustawiający pola obiektu
+zgodnie z podanymi parametrami.
+Napisz klasę Point3D dziedziczącą po Point2D reprezentującą punkt w trójwymiarze
+(dodatkowe pole z).
